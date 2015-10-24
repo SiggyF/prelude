@@ -1,11 +1,10 @@
-(prelude-require-packages '(
-                            multiple-cursors
+(prelude-require-packages '(multiple-cursors
                             ;; html support
                             company-web
                             ;; support both autocomplete and company
                             ac-js2             ; js2 completion
-                            ac-html-bootstrap                  ; bootstrap completions
-                            ac-html-csswatcher                 ; css completions
+                            ac-html-bootstrap ; bootstrap completions
+                            ac-html-csswatcher ; css completions
 
                             ;; Ido
                             ido-at-point
@@ -36,8 +35,8 @@
                             ;; general lisp
                             paredit                            ; for lisp
                             ;; Python
-                            virtualenv                         ; python virtual envs
-                            ein                                ; ipython notebook
+                            pyenv-mode ; python virtual envs
+                            ein ; ipython notebook
                             ;; SQLite
                             esqlite                            ; sqlite
                             ;; R
@@ -69,4 +68,4 @@
 
 
 
-))
+                            ))
