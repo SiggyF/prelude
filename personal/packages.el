@@ -1,6 +1,10 @@
 (prelude-require-packages '(multiple-cursors
                             ;; html support
                             company-web
+                            ;; Editing tags
+                            tagedit
+                            emmet-mode
+
                             ;; support both autocomplete and company
                             ac-js2             ; js2 completion
                             ac-html-bootstrap ; bootstrap completions
@@ -65,7 +69,10 @@
                             css-eldoc
                             ;; Keyboard
                             guide-key                          ; overview of key chords for C x r
-
+                            ;; Matlab
+                            matlab-mode
+                            ;; Coffee
+                            coffee-mode
 
 
                             ))
