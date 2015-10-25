@@ -1,6 +1,7 @@
 (prelude-require-packages '(multiple-cursors
                             ;; html support
                             company-web
+                            simplezen
                             ;; Editing tags
                             tagedit
                             emmet-mode

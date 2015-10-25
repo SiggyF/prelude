@@ -5,3 +5,6 @@
 
 ;; matlab
 (add-to-list 'auto-mode-alist '("\\.m" . matlab-mode))
+
+
+(add-to-list 'auto-mode-alist '("\\.html?\\'" . html-mode))
