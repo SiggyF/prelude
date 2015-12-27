@@ -11,6 +11,8 @@
                             ac-html-bootstrap ; bootstrap completions
                             ac-html-csswatcher ; css completions
 
+
+
                             ;; Ido
                             ido-at-point
                             ido-vertical-mode                  ; shows ido options in a vertical list
@@ -31,6 +33,12 @@
                             mmm-mode
                             mmm-mako                           ; Mako templates
                             mmm-jinja2                         ; Jinja2 templates
+                            ;; Markdown
+                            gh-md
+                            markdown-mode
+                            ;; js2
+                            js2-refactor
+
                             ;; ansible
                             ansible                            ; ansible
                             ansible-doc                        ; ansible docs
@@ -75,5 +83,6 @@
                             ;; Coffee
                             coffee-mode
 
-
+                            ;; editor config
+                            editorconfig
                             ))
