@@ -6,6 +6,9 @@
                             tagedit
                             emmet-mode
 
+                            ;; guidance
+                            guide-key
+
                             ;; support both autocomplete and company
                             ac-js2             ; js2 completion
                             ac-html-bootstrap ; bootstrap completions

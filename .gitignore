@@ -1,5 +1,6 @@
 *~
 *.elc
+.mc-lists.el
 auto-save-list
 recentf
 savehist
