@@ -15,3 +15,8 @@
                         nil)))))
 (add-hook 'js2-mode-hook #'js2-refactor-mode)
 (js2r-add-keybindings-with-prefix "C-c C-m")
+
+;; this one doesn't work if not configured
+;; (flycheck-disable-checker 'javascript-jscs)
+;; (flycheck-select-checker 'javascript-eslint)
+(editorconfig-apply)
