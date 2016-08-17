@@ -1,4 +1,6 @@
 (prelude-require-packages '(multiple-cursors
+                            ;; minimap
+                            minimap
                             ;; html support
                             company-web
                             simplezen
@@ -76,6 +78,7 @@
 
                             ;; Themes
                             solarized-theme                    ; theme
+			    gotham-theme		       ; theme
 
                             ;; Doc
                             css-eldoc
