@@ -4,6 +4,7 @@
                             ;; html support
                             company-web
                             simplezen
+                            vue-mode
                             ;; Editing tags
                             tagedit
                             emmet-mode
