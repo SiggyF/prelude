@@ -25,3 +25,5 @@ tramp
 /var/pcache
 anaconda-mode
 srecode-map.el
+.emacs.desktop
+.emacs.desktop.lock
