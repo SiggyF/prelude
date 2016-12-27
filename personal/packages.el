@@ -9,22 +9,25 @@
                             tagedit
                             emmet-mode
 
+                            ;; mode-line
+                            smart-mode-line-powerline-theme
+
                             ;; guidance
                             guide-key
+                            which-key
 
                             ;; support both autocomplete and company
                             ac-js2             ; js2 completion
                             ac-html-bootstrap ; bootstrap completions
                             ac-html-csswatcher ; css completions
 
-
-
                             ;; Ido
                             ido-at-point
                             ido-vertical-mode                  ; shows ido options in a vertical list
                             ;;
                             switch-window                      ; window suggestion
-
+                            all-the-icons                      ; more icons
+                            neotree                            ; tree
 
                             ;; Snippets
                             angular-snippets                   ; snippets
@@ -79,7 +82,7 @@
 
                             ;; Themes
                             solarized-theme                    ; theme
-			    gotham-theme		       ; theme
+                            gotham-theme                       ; theme
 
                             ;; Doc
                             css-eldoc
