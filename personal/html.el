@@ -79,7 +79,7 @@
      (tagedit-add-experimental-features)
      (add-hook 'html-mode-hook (lambda () (tagedit-mode 1)))))
 
-
+(require 'company)
 (add-to-list 'company-backends 'company-web-html)
 (eval-after-load "web-mode"
   '(progn

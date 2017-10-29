@@ -255,6 +255,9 @@ The body of the advice is in BODY."
 ;; projectile is a project management mode
 (require 'projectile)
 (setq projectile-cache-file (expand-file-name  "projectile.cache" prelude-savefile-dir))
+(setq projectile-mode-line
+      '(:eval (format " Projectile[%s]"
+                      (projectile-project-name))))
 (projectile-global-mode t)
 
 ;; avy allows us to effectively navigate to visible things
