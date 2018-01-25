@@ -14,4 +14,4 @@
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . html-mode))
 
 ;; vue templates
-(add-to-list 'auto-mode-alist '("\\.vue\\'" . html-mode))
+(add-to-list 'auto-mode-alist '("\\.vue\\'" . web-mode))
