@@ -1,3 +1,9 @@
+(prelude-require-packages '(
+                            js2-refactor
+                            tagedit
+                            editorconfig
+                            emmet-mode
+                            ))
 (require 'js2-refactor)
 (require 'flycheck)
 (require 'editorconfig)

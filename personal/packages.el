@@ -45,6 +45,7 @@
                             ;; Markdown
                             gh-md
                             markdown-mode
+
                             ;; js2
                             js2-refactor
 
